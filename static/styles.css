@@ -1,0 +1,78 @@
+/* Estilo general para el fondo */
+body {
+    background-color: #e0e5ec;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Tarjeta principal */
+.card {
+    background-color: #e0e5ec;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #a3b1c6, -10px -10px 20px #ffffff;
+    width: 500px;
+    padding: 30px;
+    margin: 20px;
+}
+
+/* Alineación del botón */
+.btn {
+    background-color: #e0e5ec;
+    border: none;
+    border-radius: 12px;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #a3b1c6, -5px -5px 10px #ffffff;
+    transition: all 0.3s ease;
+    color: #333;
+    /* Texto oscuro para contraste */
+    display: block;
+    margin: 20px auto;
+    /* Centra horizontalmente */
+    text-align: center;
+}
+
+/* Efecto hover en el botón */
+.btn:hover {
+    box-shadow: inset 5px 5px 10px #a3b1c6, inset -5px -5px 10px #ffffff;
+}
+
+/* Textarea */
+textarea {
+    background-color: #e0e5ec;
+    border: none;
+    border-radius: 12px;
+    box-shadow: inset 5px 5px 10px #a3b1c6, inset -5px -5px 10px #ffffff;
+    font-size: 16px;
+    padding: 15px;
+    width: 100%;
+    resize: none;
+}
+
+/* Etiquetas de texto */
+h1,
+h2,
+label {
+    color: #333;
+    text-align: center;
+}
+
+/* Contenedor del resultado */
+#system_response {
+    background-color: #e0e5ec;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: inset 5px 5px 10px #a3b1c6, inset -5px -5px 10px #ffffff;
+    margin-top: 15px;
+    min-height: 50px;
+}
+
+/* Ajuste interno para padding */
+.card-body>div {
+    padding: 10px 0;
+}
